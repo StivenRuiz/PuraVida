@@ -25,7 +25,38 @@ body {
 }
 /*===================SLIDER DE IMAGENES==========================*/
 
+.carrousel-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-image: url('../img/ciclismo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.text-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', cursive, Verdana, sans-serif;
+}
+.text-pasion {
+    font-family: serif;
+    color: #ca4c90;
+}
+.carousel-text {
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
 .carousel-inner {
+    min-height: 50vh;
+    height: 50vh;
+    width: 50vw;
     max-height:39rem !important;
 }
 
