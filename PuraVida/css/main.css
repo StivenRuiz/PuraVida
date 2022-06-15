@@ -25,38 +25,7 @@ body {
 }
 /*===================SLIDER DE IMAGENES==========================*/
 
-.carrousel-container {
-    display: flex;
-    align-items: center;
-    height: 80vh;
-    align-content: center;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    background-image: url('../img/ciclismo.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-
-.text-title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', cursive, Verdana, sans-serif;
-}
-.text-pasion {
-    font-family: serif;
-    color: #ca4c90;
-}
-.carousel-text {
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-}
-
 .carousel-inner {
-    min-height: 30vh;
-    height: 30vh;
-    width: 30vw;
     max-height:39rem !important;
 }
 
@@ -65,7 +34,16 @@ body {
     width:50%;
 }
 
-
+.textcontacto {
+    display: flex;
+    font-size: 2.3rem;
+    color: #7a7f87;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    justify-content: center;
+    padding-top: 1rem;
+}
 
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 #local {
@@ -83,11 +61,68 @@ body {
 
 
 .wrapper-local {
-    width:50%;
-    margin-left:100px;
-    padding-top:150px;
+    width: 75%;
+    margin-left: 50px;
+    padding-top: 55px;
 }
 
+.Text-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-one {
+    position: absolute;
+    margin-top: -35rem;
+    color: #c94c90;
+    font-family: MV Boli;
+    text-shadow: 2px 1px#9a9a9a;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.text-two {
+    position: absolute;
+    margin-top: -32rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-shadow: 3px 1px#474747;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.text-body-banner {
+    font-size: 1.1rem;
+    text-align: initial;
+    color: #ffffff !important;
+    margin-top: -28rem;
+    position: absolute;
+}
+
+.mapa-order {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: -25px;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
 
 /*===========================SECCION EQUIPO MIAMI==================================*/
 #numeros-local{
@@ -112,11 +147,13 @@ body {
 }
 
 /*=========================Parallax================================*/
-.parallaxApp
-{background-image:url('../img/ParallaxHome2.jpg');}
 
-.parallaxApp{
-    height: 40rem;
+.parallaxHome2 {
+    background-image: url(../img/ParallaxHome2.jpg);
+}
+
+.parallaxHome2{
+    height: 26rem;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -125,19 +162,96 @@ body {
     overflow: hidden;
 }
 
-.parallaxPosition{
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    height: 30%;
-    margin-left: 5rem;
+.slider-menu {
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+}
+ 
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+  border-radius: 1rem !important;
+  box-shadow: 0px 25px 70px rgb(11 0 0 / 70%) !important;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
 }
 
 .text-parallax {
-    padding: 0 2rem 1.5rem 2rem;
-    border-left: 3px solid #5FABFE;
+    padding: 0 2rem 0.7rem 1.2rem;
+    border-left: 3px solid #ca4c90;
 }
 
+.text2-parallax {
+    padding: 7px 0px 0px 3rem;
+    position: absolute;
+    border-top: 3px solid #ca4c90;
+}
+.parallax-component {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    height: 34%;
+    margin-left: 4rem;
+}
+
+.text-parrafo {
+    font-weight: 600;
+    color: #fff;
+}
+
+.text-footer {
+    color: #ca4c90;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
 
 /*=========================CONTACTOS BACKGROUND================================*/
 
@@ -200,9 +314,9 @@ footer p{
         padding-top:30px;
    }
    .wrapper-local {
-    width:90%;
-    margin:auto;
-    padding-top:50px;    
+    width: 75%;
+    margin-left: 50px;
+    padding-top: 135px;  
    }
  
 }
