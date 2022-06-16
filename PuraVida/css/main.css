@@ -301,6 +301,24 @@ footer p{
     color:#f3f3f3;
 }
 
+.card-image {
+    width: 4vw;
+    height: 10vh;
+}
+
+.card {
+    max-width: 33vw;
+    max-height: 33vh;
+}
+
+h5 {
+    color: #ca4c90;
+    font-family: MV Boli;
+    text-shadow: 2px 1px#9a9a9a;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
