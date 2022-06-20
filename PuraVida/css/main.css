@@ -83,12 +83,23 @@ body {
 
 .text-two {
     position: absolute;
-    margin-top: -32rem;
+    margin-top: -30rem;
     color: #ffffff;
     font-family: sans-serif;
     text-shadow: 3px 1px#474747;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.text-body {
+    font-size: 2rem;
+    font-family: cursive;
+    color: #7a7a7a !important;
+}
+.text-secondary {
+    color: #6c757d!important;
+    font-size: 1.25rem !important;
+    font-family: cursive;;
 }
 
 .text-body-banner {
@@ -190,7 +201,7 @@ body {
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 955px;
+    width: 1000px;
     border-radius: 1rem !important;
     box-shadow: 0px 25px 70px rgb(11 0 0 / 70%) !important;
 }
@@ -263,7 +274,7 @@ body {
 } 
 
  #seccion-contacto{
-    background-color: #1b2a4e;
+    background-color: #fff;
     min-height:500px;
     position:relative;
 }
@@ -382,6 +393,11 @@ footer p{
     height: 10vh;
 }
 
+.card-img {
+    width: 12vw;
+    height: 12vh;
+}
+
 .card {
     max-width: 33vw;
     max-height: 33vh;
@@ -390,11 +406,9 @@ footer p{
 h5 {
     color: #ca4c90;
     font-family: MV Boli;
-    text-shadow: 2px 1px#9a9a9a;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
-
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -463,3 +477,4 @@ h5 {
         text-align: center;
     }
 }
+
