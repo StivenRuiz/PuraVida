@@ -303,6 +303,80 @@ footer p{
     color:#f3f3f3;
 }
 
+.banner-section{
+    position: relative;
+}
+
+.cards-title{
+    color: #000000;
+    font-family: sans-serif;
+    text-shadow: 3px 1px#ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.banner-pink{
+    background-color: #eb4893;
+    min-height: 30vh;
+    min-width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.banner-container {
+    width: 80vw;
+    height: 85vh;
+    background-color: #ece4e4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 50;
+    top: 15%;
+    left: 11%;
+    position: absolute;
+    border-radius: 2%;
+}
+
+.cards-banner{
+    border-radius: 5%;
+    height: 40%;
+    width: 70%;
+    max-height: 40%;
+    max-width: 70%;
+}
+
+.banner-black{
+    background-color: #000000;
+    min-height: 90vh;
+    min-width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.banner-img {
+    padding-bottom: 10vh;
+}
+
+.banner-image {
+    width: 15vw;
+    height: 10vh;
+    border-right: 3px #ffffff solid;
+}
+
+.banner-image2 {
+    width: 15vw;
+    height: 10vh;
+}
+
 .card-image {
     width: 4vw;
     height: 10vh;
