@@ -301,8 +301,10 @@ body {
 /*=========================FOOTER================================*/
 
 footer {
-    background: #1b2a4e;
-    min-height: 100px;;
+    background: #e84a94;
+    min-height: 100px;
+    width: 100vw;
+    color: #ffffff;
 }
 footer p{
     color:#f3f3f3;
@@ -312,6 +314,48 @@ footer p{
     font-size: 26px;
     padding: 0 8px;
     color:#f3f3f3;
+}
+
+.footer-col1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.footer-col2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-col3 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: smaller;
+}
+
+.contact-us {
+    padding-bottom: 5vh;
+}
+
+.contact-us span{
+    padding-right: 10px;
+}
+
+.copyright span {
+    padding-right: 3px;
+    font-size: smaller;
 }
 
 .banner-section{
