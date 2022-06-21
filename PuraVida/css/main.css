@@ -76,10 +76,27 @@ body {
     margin-top: -35rem;
     color: #c94c90;
     font-family: MV Boli;
-    text-shadow: 2px 1px#9a9a9a;
+    text-shadow: 2px 1px#ffff;
     font-weight: bold;
     letter-spacing: 5px;
 }
+
+.img-card {
+    box-shadow: 0 9px 16px rgb(0 0 0 / 20%) !important;
+    border-radius: 7% !important;
+}
+
+.body-text-card {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    color: #6c757d!important;
+    font-size: 1rem !important;
+    font-family: cursive;
+  }
+
+a:hover {
+    color: #ca4c90 !important;
+  }
 
 .text-two {
     position: absolute;
@@ -160,7 +177,7 @@ body {
 /*=========================Parallax================================*/
 
 .parallaxHome2 {
-    background-image: url(../img/ParallaxHome2.jpg);
+    background-image: url(../img/slide1.jpg);
 }
 
 .parallaxHome2{
@@ -448,7 +465,7 @@ footer p{
 }
 
 h5 {
-    color: #ca4c90;
+    color: #eb4893;
     font-family: MV Boli;
     font-weight: bold;
     letter-spacing: 3px;
