@@ -551,6 +551,9 @@ h5 {
     justify-content: center;
     align-items: center;
 }
+.img-logo{
+    width: 30vw;
+}
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -580,16 +583,13 @@ h5 {
         width:90% !important;
         margin:auto;
     }
-
-    
+    .card-image {
+        width: 15vw;
+        height: 10vh;
+    }    
     #img-equipo{
         max-height:20rem !important;
         width:90%;
-    }
-    .wrapper-local {
-        width:90%;
-        margin:auto;
-        padding-top:50px;    
     }
     #local {
         flex-wrap: wrap;
@@ -622,7 +622,87 @@ h5 {
         border-color: rgb(255 255 255);
         background: white;
     }
+    .cards-section{
+        display: none;
+    }
+    
+    .carousel-cards {
+        background-color: #ffffff;
+        border-radius: 2%;
+        display: inline;
+        min-width: 33vw;
+    }
 
+    .banner-container {
+        height: 54vh;
+        top: 20%;
+        text-align: center;
+    }
+
+    .banner-black {
+        min-height: 50vh;
+    }
+
+    .banner-pink {
+        min-height: 25vh;
+    }
+    .banner-image {
+        width: 15vw;
+        height: 5vh;
+        border-right: 3px #ffffff solid;
+    }
+    .banner-image2 {
+        width: 19vw;
+        height: 5vh;
+    }
+    .img-logo{
+        width: 70vw;
+    }
+    .texto-inscribite {
+        padding-top: 25px;
+    }
+    #seccion-contacto {
+        min-height: 330px;
+    }
+    .textcontacto {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+    .mapa-order {
+        margin-top: 1rem;
+        margin-bottom: -23px;
+        padding-inline: 22%;
+    }
+    .wrapper-local {
+        padding-top: 50px;
+        padding-inline: 6%;
+        margin-left: 14%;
+    }
+    .about-us {
+        width: auto;
+    }
+    .imgFooterLogo{
+        width: 26vw;
+    }
+    footer p {
+        margin-top: 2vh;
+    }
+    #iconos i {
+        font-size: 22px;
+        padding: 0 3px;
+    }
+    .contact-us {
+        padding-bottom: 7vh;
+    }
+    .copyright span {
+        padding-right: 0px;
+    }
+    footer {
+        padding-block: 2%;
+        width: 103vw;
+    }
+
+    
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
