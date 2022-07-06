@@ -147,7 +147,7 @@ body {
   }
 
 a:hover {
-    color: #ca4c90 !important;
+    color: #921457 !important;
   }
 
 .text-two {
@@ -525,6 +525,11 @@ footer p{
     width: 4vw;
     height: 10vh;
 }
+.imgFooterLogo {
+    width: 50%;
+}
+
+
 
 .card-img {
     width: 12vw;
@@ -583,6 +588,16 @@ h5 {
         width:90% !important;
         margin:auto;
     }
+    .movil {
+        display: none;
+    }
+    .card-img {
+        width: 25vw;
+        height: 12vh;
+    }
+    .movil-center {
+        text-align: -webkit-center;
+    }  
     .card-image {
         width: 15vw;
         height: 10vh;
